@@ -13,6 +13,7 @@ System.config({
 
   packages: {
     "app": {
+      "main": "bootstrap",
       "defaultExtension": "ts"
     }
   },
