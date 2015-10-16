@@ -1,5 +1,4 @@
 # Angular 2 in TypeScript with jspm
----
 
 
 ## Quick Start
