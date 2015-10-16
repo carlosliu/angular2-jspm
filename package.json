@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "build": "jspm bundle-sfx app dist/app.sfx.js",
-    "start": "live-server"
+    "start": "live-server .",
+    "start.dist": "live-server dist"
   },
   "jspm": {
     "dependencies": {
