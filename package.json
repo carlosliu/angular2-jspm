@@ -2,6 +2,10 @@
   "name": "angular2-jspm",
   "version": "0.0.1",
   "description": "",
+  "scripts": {
+    "build": "jspm bundle-sfx app dist/app.sfx.js",
+    "start": "live-server"
+  },
   "jspm": {
     "dependencies": {
       "@reactivex/rxjs": "npm:@reactivex/rxjs@^5.0.0-alpha.4",
@@ -15,6 +19,7 @@
     }
   },
   "devDependencies": {
+    "live-server": "^0.8.1",
     "jspm": "0.16.12"
   }
 }
