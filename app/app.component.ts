@@ -12,7 +12,7 @@ export class AppComponent {
   constructor(){
     this.name = 'Angular2';
     setTimeout(() => {
-      this.name = 'Angular2 in TypeScript with jspm'
-    },2000);
+      this.name = 'Angular2 in TypeScript with jspm';
+    },3500);
   }
 }
