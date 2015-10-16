@@ -22,7 +22,7 @@
 - `jspm init` (choose typescript as transpiler)
 - Install angular2 and required dependencies  
   `jspm install angular2`  
-  `jspm install reflect-metadata zone.js es6-shim npm:@reactivex/rxjs`
+  `jspm install reflect-metadata zone.js`
 - Customize `config.js` (see `typescriptOptions`, `packages` and `meta`)
 
 
