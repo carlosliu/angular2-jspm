@@ -22,12 +22,14 @@ System.config({
     "angular2/angular2": {
       "deps": [
         "reflect-metadata",
-        "zone.js"
+        "zone.js",
+        "@reactivex/rxjs"
       ]
     }
   },
 
   map: {
+    "@reactivex/rxjs": "npm:@reactivex/rxjs@5.0.0-alpha.4",
     "angular2": "npm:angular2@2.0.0-alpha.44",
     "reflect-metadata": "npm:reflect-metadata@0.1.1",
     "typescript": "npm:typescript@1.6.2",
